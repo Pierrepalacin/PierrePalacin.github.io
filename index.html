@@ -1,46 +1,185 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <!-- Statcounter code kept exactly as is -->
   <script type="text/javascript">
-  var sc_project=12787850;
-  var sc_invisible=1;
-  var sc_security="0d3a0671";
+    var sc_project = 12787850;
+    var sc_invisible = 1;
+    var sc_security = "0d3a0671";
   </script>
   <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
-  <noscript><div class="statcounter"><a title="Web Analytics Made Easy - Statcounter" href="https://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/12787850/0/0d3a0671/1/" alt="Web Analytics Made Easy - Statcounter" referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+  <noscript>
+    <div class="statcounter">
+      <a title="Web Analytics Made Easy - Statcounter" href="https://statcounter.com/" target="_blank">
+        <img class="statcounter" src="https://c.statcounter.com/12787850/0/0d3a0671/1/" alt="Web Analytics Made Easy - Statcounter" referrerpolicy="no-referrer-when-downgrade">
+      </a>
+    </div>
+  </noscript>
+
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Azadeh Khaleghi - Professor of Statistics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pierre Palacin</title>
+
   <style>
-    :root{--bg:#ffffff;--text:#0b1220;--muted:#556076;--accent:#0066cc;--card:#f7f9fc;--max-width:1100px;--radius:12px;}
-    *{box-sizing:border-box;}
-    body{margin:0;padding:28px;display:flex;justify-content:center;font-family:optima,verdana,sans-serif;background:var(--bg);color:var(--text);}
-    .container{width:100%;max-width:var(--max-width);}
-    header{display:flex;flex-direction:column;align-items:center;gap:16px;}
-    .photo{width:160px;height:160px;border-radius:50%;overflow:hidden;box-shadow:0 6px 18px rgba(10,20,40,0.08);}
-    .photo img{width:100%;height:100%;object-fit:cover;}
-    nav{margin-top:12px;display:flex;flex-wrap:wrap;gap:12px;justify-content:center;}
-    .btn{padding:10px 16px;border-radius:10px;background:var(--accent);color:#fff;font-weight:600;}
-    main{margin-top:28px;display:grid;gap:28px;}
-    .card{background:var(--card);padding:20px;border-radius:var(--radius);box-shadow:0 6px 18px rgba(12,20,40,0.04);}
-    ul{padding:0;list-style:none;}
-    li{margin-bottom:10px;}
-    footer{margin-top:32px;text-align:center;color:var(--muted);}
+    :root {
+      --bg: #ffffff;
+      --text: #0b1220;
+      --muted: #556076;
+      --accent: #0066cc;
+      --card: #f7f9fc;
+      --max-width: 950px;
+      --radius: 12px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 28px;
+      display: flex;
+      justify-content: center;
+      font-family: Optima, Verdana, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      width: 100%;
+      max-width: var(--max-width);
+    }
+
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 14px;
+      text-align: center;
+    }
+
+    .photo {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      overflow: hidden;
+      box-shadow: 0 6px 18px rgba(10, 20, 40, 0.08);
+    }
+
+    .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    h1 {
+      margin: 8px 0 0;
+      font-size: 2.2rem;
+      font-weight: 700;
+    }
+
+    .lead {
+      max-width: 760px;
+      margin: 0;
+      color: var(--muted);
+    }
+
+    nav {
+      margin-top: 12px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+    }
+
+    .btn {
+      padding: 9px 15px;
+      border-radius: 10px;
+      background: var(--accent);
+      color: #ffffff;
+      font-weight: 600;
+    }
+
+    .btn:hover {
+      text-decoration: none;
+      opacity: 0.9;
+    }
+
+    main {
+      margin-top: 28px;
+      display: grid;
+      gap: 24px;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 22px;
+      border-radius: var(--radius);
+      box-shadow: 0 6px 18px rgba(12, 20, 40, 0.04);
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 1.35rem;
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    footer {
+      margin-top: 32px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 18px;
+      }
+
+      .photo {
+        width: 130px;
+        height: 130px;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      .btn {
+        width: 100%;
+      }
+    }
   </style>
 </head>
+
 <body>
   <div class="container">
     <header>
       <div class="photo">
-        <img src="shapeimage_2.png" alt="Portrait of Azadeh Khaleghi">
+        <img src="shapeimage_2.png" alt="Portrait of Pierre Palacin">
       </div>
-      <h1>Azadeh Khaleghi</h1>
-      <p>Professor of Statistics (HDR equiv.) — 
-        <a href="https://www.ensae.fr">ENSAE</a> - 
-        <a href="https://crest.science">CREST</a>, IP Paris
+
+      <h1>Pierre Palacin</h1>
+
+      <p class="lead">
+        Interests: statistics, macroeconomics, finance, art, the nineteenth century,
+        Beach House, Barbara, Pierre Bonnard, David Lynch, Monty Python, Japanese animation,
+        Henri de Toulouse-Lautrec, Toulouse, aviation, marine wildlife, and more.
       </p>
-      <p class="lead">Research Interests: statistical learning theory, information theory, nonparametric statistics, long-memory processes</p>
+
       <nav>
         <a class="btn" href="index.html">About</a>
         <a class="btn" href="publications.html">Research</a>
@@ -49,26 +188,46 @@
         <a class="btn" href="CV.pdf" target="_blank">Curriculum Vitae</a>
       </nav>
     </header>
+
     <main>
-      <!-- About -->
       <section class="card">
         <h2>About</h2>
-        <p>Azadeh Khaleghi is a Professor of Statistics at <a href="https://www.ensae.fr">ENSAE</a> - <a href="https://crest.science">CREST</a>. 
-          She earned her Ph.D. in Mathematics from Université de Lille I - INRIA Lille (France) and holds an M.Sc. and B.Sc. in Electrical and Computer Engineering from the University of Toronto. Her research focuses on the mathematical foundations of statistics and machine learning, emphasizing long-memory and mixing processes. She develops nonparametric methods for estimating mixing coefficients, modelling complex dependencies in time series, and designing statistical learning and sequential decision-making algorithms robust to long-range dependencies and non-stationarities. Her techniques for understanding dependence in stochastic processes also inform broader areas of statistical learning, including algorithmic fairness.</p>
-        <p class="small">ORCID: <a href="https://orcid.org/0000-0001-8643-5416">0000-0001-8643-5416</a> • <a href="https://scholar.google.co.uk/citations?user=VnTMs_EAAAAJ&hl=en">Google Scholar</a></p>
+
+        <p>
+          I am a student at
+          <a href="https://www.ensae.fr" target="_blank">ENSAE</a>
+          and
+          <a href="https://www.hec.edu/fr" target="_blank">HEC Paris</a>.
+          I took a gap year from June 2025 to September 2026, during which I worked as a research assistant with Professor
+          <a href="https://azalk.github.io/publications.html" target="_blank">Azadeh Khaleghi</a>
+          and as a macroeconomics intern at the French Ministry for the Ecological Transition.
+          I completed my gap year with a six-month traineeship at the European Central Bank.
+        </p>
+
+        <p class="small">
+          ORCID:
+          <a href="https://orcid.org/" target="_blank">add your ORCID here</a>
+          ·
+          <a href="#" target="_blank">Google Scholar</a>
+        </p>
       </section>
 
-      <!-- Contact -->
       <section class="card">
         <h2>Contact & Links</h2>
-        <div><strong>Email:</strong> <a href="mailto:azadeh.khaleghi@ensae.fr">azadeh.khaleghi@ensae.fr</a></div>
-        <div><strong>Address:</strong> ENSAE — 5 avenue Henry Le Chatelier, 91120 Palaiseau, France</div>
-        <div><a href="CV.pdf" target="_blank">Download CV (PDF)</a></div>
+
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:pierre.palacin@ensae.fr">pierre.palacin@ensae.fr</a>
+        </p>
+
+        <p>
+          <a href="CV.pdf" target="_blank">Download CV</a>
+        </p>
       </section>
     </main>
 
     <footer>
-      &copy; Azadeh Khaleghi — last updated: Sept 2025
+      &copy; Pierre Palacin — last updated: May 2026
     </footer>
   </div>
 </body>
